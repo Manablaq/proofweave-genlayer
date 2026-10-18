@@ -1,0 +1,46 @@
+{
+  "additionalLiveRpc": 0,
+  "basis": "sha256-pinned preserved RPC responses; offline verification; no fresh reads",
+  "broadcasts": 0,
+  "caseId": "case:1",
+  "chainId": 61997,
+  "contract": "0x180ffF4454836E367061957A0E4440Cfc0509B80",
+  "finalizedState": {
+    "classificationVector": "SS",
+    "decision": "CORROBORATED",
+    "evidenceCount": 2,
+    "resolvedBy": "0x1f87Ae197af539253978d435aD45cCf28Fb95024",
+    "sourceRefC": "synthetic:proofweave/case-1/witness-c/demo-42",
+    "sourceRefD": "synthetic:proofweave/case-1/witness-d/demo-42",
+    "status": "RESOLVED",
+    "witnessC": "0x3F1C7545bb16f05E06f1D9821D4fd1a8456C8dCF",
+    "witnessD": "0xb4a108361276A792B6A5da91AddC6d00C7070cE7"
+  },
+  "fullReviewerReadinessAudited": false,
+  "localSourceAstEquivalent": "PASS",
+  "result": "PASS",
+  "schema": "proofweave-case1-archived-live-positive-path-certificate-r1",
+  "signaturesCreated": 0,
+  "sourceSha256": "a57384aeb9140eda87f8b593adc697343370ae504ca6f37d30c54cefded50d7f",
+  "strictDirectModeLog": "HASH_VERIFIED",
+  "syntheticEvidenceOnly": true,
+  "transactions": {
+    "resolution": {
+      "consensusResult": "MAJORITY_AGREE",
+      "hash": "0x4752b55999ef9b68bcffc9e49f0b1157d1a92c22e59781e12ee4c0c8c4de9820",
+      "nonce": 218,
+      "receiptStatus": "SUCCESS",
+      "status": "FINALIZED"
+    },
+    "witnessC": {
+      "consensusResult": "MAJORITY_AGREE",
+      "hash": "0xa1136c6bc833f2b84c4561ef224ac6418ada9b4432df325bf859da6fb69a4857",
+      "status": "FINALIZED"
+    },
+    "witnessD": {
+      "consensusResult": "MAJORITY_AGREE",
+      "hash": "0x04e63362277377af0118500a639f04bc7ada62cfadbce9a6201bdbcef92c42d8",
+      "status": "FINALIZED"
+    }
+  }
+}

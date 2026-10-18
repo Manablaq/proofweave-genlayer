@@ -1,0 +1,13 @@
+{
+  "auditedEvidenceZipSha256": "1dd66e4e0b20529b29d8ea1bf1cf909de674942414299f6e64fd4132d583e8cd",
+  "copiedLocalTestFiles": [
+    "direct/test_proof_weave.py",
+    "offline/mock_sdk.py",
+    "offline/test_contract_offline.py"
+  ],
+  "frozenSourceSha256": "a57384aeb9140eda87f8b593adc697343370ae504ca6f37d30c54cefded50d7f",
+  "liveDemonstration": "case:1 RESOLVED SS CORROBORATED on Studio Devnet 61997",
+  "publicRepoCommitVerified": false,
+  "releaseSchema": "proofweave-public-source-and-sanitized-evidence-r1",
+  "scope": "Synthetic positive-path case only; reviewer acceptance not established"
+}

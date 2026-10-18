@@ -1,0 +1,24 @@
+# Never publish wallet secrets or signed raw transactions
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*.keystore
+keystores/
+.genlayer/
+**/signed.raw*
+**/*.raw.hex
+**/attempt-*.json
+**/*.response.bin
+**/*.request.bin
+**/raw_rpc/
+# Build/runtime noise
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+.pytest_cache/
